@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+
+
+public class FifthProject {
+    public static void main(String[] args) {
+
+        System.out.println("\n\n....Welcome to Fifth Project Program...\n");
+
+        String userName = "";
+
+        Scanner myScannerObj = new Scanner(System.in);
+
+        System.out.println("Please enter your name: ");
+        userName = myScannerObj.nextLine();
+
+        System.out.println("Hello " + userName + ". I hope you're doing well today.");
+    }
+}
